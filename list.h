@@ -579,4 +579,6 @@ static inline void list_splice_tail_init(struct list_head *list,
  * @member:	the name of the list_struct within the struct.
  *
  * list_safe_reset_next is not safe to use in general if the list may be
- *
+ */
+
+#endif
